@@ -12,9 +12,9 @@
 # Versão 0.2 - adicionada opções -V, --version, -h, --help,
 #              -u, --url, -w, --wordlist
 # Versão 0.3 - Consertado mensagem de erro do --wordlist
-#                           O -u e --url foram trocados por -h e --host
-#                           Adicionado pesquisa de informações sobre ip
-#                           com a opção --ipinfo
+#              O -u e --url foram trocados por -h e --host
+#              Adicionado pesquisa de informações sobre ip
+#              com a opção --ipinfo
 #
 
 ipinfo=0
