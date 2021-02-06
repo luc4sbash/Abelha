@@ -26,9 +26,9 @@ MENSAGEM_USO="
 USO:
 	-h, --host          Define a url
 	-w, --wordlist      Define a wordlist
-	--ipinfo			Mostra informações do host
-		--ip, --hostname, --city, --region, --country,
-        --loc, --org, --postal
+	--ipinfo            Mostra informações do host
+            --ip, --hostname, --city, --region, --country,
+            --loc, --org, --postal
 
 	-h, --help          Mostra essa mensagem de ajuda
 	-V, --version       Mostra a versão
