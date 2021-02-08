@@ -84,22 +84,22 @@ while test -n "$1"; do
 
  		--ipinfo)
 			ipinfo=1
-            shift
-            [ -z "$1" ] && echo "--ipinfo espera argumento" && exit 1
-            while test -n "$1"; do
-                case "$1" in
-                    --ip)       comando="ip";;
-                    --hostname) comando="hostname" ;;
-                    --city)     comando="city"     ;;
-                    --region)   comando="region"   ;;
-                    --country)  comando="country"  ;;
-                    --loc)      comando="loc"      ;;
-                    --org)      comando="org"      ;;
-                    --postal)   comando="postal"   ;;
-                esac
-                shift
-            done
-        ;;
+			shift
+			[ -z "$1" ] && echo "--ipinfo espera argumento" && exit 1
+			while test -n "$1"; do
+			case "$1" in
+				--ip)       comando="ip"       ;;
+				--hostname) comando="hostname" ;;
+				--city)     comando="city"     ;;
+				--region)   comando="region"   ;;
+				--country)  comando="country"  ;;
+				--loc)      comando="loc"      ;;
+				--org)      comando="org"      ;;
+				--postal)   comando="postal"   ;;
+			 esac
+			 shift
+			 done
+		;;
 
 		*)
 			echo "Opção inválida: [$1]"
